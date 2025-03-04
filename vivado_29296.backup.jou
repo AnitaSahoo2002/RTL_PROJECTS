@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Fri Oct 18 08:32:53 2024
+# Process ID: 6308
+# Log file: C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/vivado.log
+# Journal file: C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier\vivado.jou
+#-----------------------------------------------------------
+start_gui
+oopen_project {C:\Users\HP\Desktop\Verilog Projects\Vedic_Multiplier\Vedic_Multiplier.xpr}set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/Vedic_Multiplier.srcs/sim_1/new/testbench.v} w ]
+add_files -fileset sim_1 {{C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/Vedic_Multiplier.srcs/sim_1/new/testbench.v}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+launch_xsim -simset sim_1 -mode behavioral
+close_sim
+close [ open {C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/Vedic_Multiplier.srcs/sources_1/new/two_bit_multiplier.v} w ]
+add_files {{C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/Vedic_Multiplier.srcs/sources_1/new/two_bit_multiplier.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/Vedic_Multiplier.srcs/sources_1/new/four_bit_multipler.v} w ]
+add_files {{C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/Vedic_Multiplier.srcs/sources_1/new/four_bit_multipler.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/Vedic_Multiplier.srcs/sources_1/new/four_bit_adder.v} w ]
+add_files {{C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/Vedic_Multiplier.srcs/sources_1/new/four_bit_adder.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/Vedic_Multiplier.srcs/sources_1/new/six_bit_adder.v} w ]
+add_files {{C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/Vedic_Multiplier.srcs/sources_1/new/six_bit_adder.v}}
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1

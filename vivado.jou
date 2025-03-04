@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Tue Mar 04 10:07:51 2025
+# Process ID: 55160
+# Log file: C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/vivado.log
+# Journal file: C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\HP\Desktop\Verilog Projects\Vedic_Multiplier\Vedic_Multiplier.xpr}
+reset_run synth_1
+launch_runs impl_1
+wait_on_run impl_1
+launch_xsim -simset sim_1 -mode behavioral
+open_run impl_1
+close_sim

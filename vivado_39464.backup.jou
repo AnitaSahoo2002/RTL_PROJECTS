@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2014.1 (64-bit)
+# SW Build 881834 on Fri Apr  4 14:12:35 MDT 2014
+# IP Build 877625 on Fri Mar 28 16:29:15 MDT 2014
+# Start of session at: Sat Oct 19 13:00:05 2024
+# Process ID: 29296
+# Log file: C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/vivado.log
+# Journal file: C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:\Users\HP\Desktop\Verilog Projects\Vedic_Multiplier\Vedic_Multiplier.xpr}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/Vedic_Multiplier.srcs/sources_1/new/twelve_bit_adder.v} w ]
+add_files {{C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/Vedic_Multiplier.srcs/sources_1/new/twelve_bit_adder.v}}
+update_compile_order -fileset sources_1
+close [ open {C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/Vedic_Multiplier.srcs/sources_1/new/eight_bit_adder.v} w ]
+add_files {{C:/Users/HP/Desktop/Verilog Projects/Vedic_Multiplier/Vedic_Multiplier.srcs/sources_1/new/eight_bit_adder.v}}
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+launch_runs synth_1
+wait_on_run synth_1
+launch_xsim -simset sim_1 -mode behavioral
+close_sim
